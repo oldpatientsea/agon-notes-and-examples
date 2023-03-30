@@ -2,17 +2,23 @@
 
 ## Very Quick Start for Users of the Olimex Board
 
-When you purchase a board from Olimex or one of their distributors, it will be shipped pre-flashed with two of the three components that together comprise the official Quark firmware: [agon-mos](https://github.com/breakintoprogram/agon-mos) and [agon-vdp](https://github.com/breakintoprogram/agon-vdp). To these, you must add a third: a copy of [agon-bbc-basic](https://github.com/breakintoprogram/agon-bbc-basic).
+When you purchase a board direct from Olimex or one of their distributors such as the Pi Hut in the UK, it will be shipped pre-flashed with two of the three components that together comprise the official Quark firmware.
 
-You are expected to download BBC Basic and examples from the FIRMWARE folder of the Olimex repository [AgonLight2/SOFTWARE/FIRMWARE/](https://github.com/OLIMEX/AgonLight2/tree/main/SOFTWARE/FIRMWARE) and to copy these to an SD card. The version of BBC Basic supplied here is 1.02. 
+The first two elements are embedded in memory on the device. The third sits on the micro SD card. You are expected to download BBC Basic and examples from the FIRMWARE folder of the Olimex repository [AgonLight2/SOFTWARE/FIRMWARE/](https://github.com/OLIMEX/AgonLight2/tree/main/SOFTWARE/FIRMWARE) and to copy these to a SD card which you then insert into the device to complete the process. The version of BBC Basic supplied here is 1.02. 
 
 At the time of writing, the versions of the Quark components that are shipped preflashed are as follows:
-* agon-mos: 1.02
-* agon-vdp: 1.02
+* [agon-mos](https://github.com/breakintoprogram/agon-mos): 1.02
+* [agon-vdp](https://github.com/breakintoprogram/agon-vdp): 1.02
 
-A version 1.03 in being tested of both of these at the moment but upgrading is only recommended if you have the necessary Zilog Smart Cable and the confidence to reflash the device if there are problems. Instructions for doing so can be found at [agon-mos](https://github.com/breakintoprogram/agon-mos)
+By adding v1.02 of BBC Basic the firmware is complete and the machine is ready to go.
 
-Nonetheless, you can safely upgrade BBC Basic to version 1.03 direct from the repository at [agon-bbc-basic](https://github.com/breakintoprogram/agon-bbc-basic) without updating the other components. v1.04 however will not work with agon-mos and agon-vdp 1.02.
+You can immediately and safely upgrade BBC Basic to version 1.03 copying it direct from the repository at [agon-bbc-basic](https://github.com/breakintoprogram/agon-bbc-basic) without updating the other components. 
+
+There is also a version 1.04 of BBC Basic however this will not work with agon-mos and agon-vdp 1.02.
+
+Agon-mos and agon-vdp version 1.03 is being tested at the moment but upgrading to a release candidate (eg 1.03-RC2) is only recommended if you have the necessary Zilog Smart Cable and the confidence to reflash the device if there are problems. If you feel up to this, instructions for doing so can be found at [agon-mos](https://github.com/breakintoprogram/agon-mos)
+
+There are good reasons to do so which will be explained below. And there are also good reasons to wait until the code is stable. There is nothing wrong in having a play with the device as it ships not least because it may make you appreciate the improvements coming in the next release. You can still have a lot of fun with v1.02 of the firmware and things are only going to get better.
 
 ## Caveat
 
