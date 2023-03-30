@@ -1,0 +1,40 @@
+   10 REM > tutorial01.bbc
+   20 CLS
+   30 MODE 0
+   40 memsize=38
+   50 DIM hello memsize
+   60 FOR pass=0 TO 1
+   70   P%=hello
+   80   [OPT pass*2
+   90   LD A,72
+  100   RST 16
+  110   LD A,69: RST 16
+  120   LD A,76: RST 16
+  130   LD A,76: RST 16
+  140   LD A,79: RST 16
+  150   LD A,32: RST 16
+  160   LD A,87: RST 16
+  170   LD A,79: RST 16
+  180   LD A,82: RST 16
+  190   LD A,76: RST 16
+  200   LD A,68: RST 16
+  210   LD A,33: RST 16
+  220   RET
+  230   ]
+  240 NEXT pass
+  260 PRINT
+  270 PRINT "This code reserves "; memsize; " bytes starting at "; hello ; "."
+  280 PRINT "The compiled instructions are shown below:"
+  290 PRINT
+  300 FOR memptr=hello TO hello+memsize
+  310   PRINT memptr;: PRINT " = ";: PRINT ?memptr
+  320 NEXT memptr
+  330 PRINT
+  340 PRINT "Now it has been assembled you can run it by CALLing the start address"
+  350 PRINT "Either"
+  360 PRINT "   CALL hello"
+  370 PRINT "or"
+  380 PRINT "   CALL "; hello
+  390 PRINT
+  400 PRINT "For fun, try CALL "; hello+3
+  410 PRINT "Can you see why this does what it does?"
