@@ -7,8 +7,8 @@ When you purchase a board direct from Olimex or one of their distributors such a
 The first two elements are embedded in memory on the device. The third will sit on the micro SD card and it is up to you to install it. 
 
 At the time of writing, the versions of the Quark components that are shipped with the device are as follows:
-* [agon-mos](https://github.com/breakintoprogram/agon-mos): 1.02 is flashed to the eZ80
-* [agon-vdp](https://github.com/breakintoprogram/agon-vdp): 1.02 is flashed to the ESP32 
+* [agon-mos](https://github.com/breakintoprogram/agon-mos): version 1.02 is flashed to the eZ80
+* [agon-vdp](https://github.com/breakintoprogram/agon-vdp): version 1.02 is flashed to the ESP32 
 
 To install the third element, you are instructed to download BBC Basic and examples from the FIRMWARE folder of the Olimex repository [AgonLight2/SOFTWARE/FIRMWARE/](https://github.com/OLIMEX/AgonLight2/tree/main/SOFTWARE/FIRMWARE) and to copy these to a SD card which you then insert into the device to complete the process. The version of BBC Basic supplied here is 1.02. 
 
