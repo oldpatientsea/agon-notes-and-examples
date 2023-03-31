@@ -4,13 +4,17 @@
 
 When you purchase a board direct from Olimex or one of their distributors such as the Pi Hut in the UK, it will be shipped pre-flashed with two of the three components that together comprise the official Quark firmware.
 
-The first two elements are embedded in memory on the device. The third sits on the micro SD card. You are expected to download BBC Basic and examples from the FIRMWARE folder of the Olimex repository [AgonLight2/SOFTWARE/FIRMWARE/](https://github.com/OLIMEX/AgonLight2/tree/main/SOFTWARE/FIRMWARE) and to copy these to a SD card which you then insert into the device to complete the process. The version of BBC Basic supplied here is 1.02. 
+The first two elements are embedded in memory on the device. The third will sit on the micro SD card and it is up to you to install it. 
 
-At the time of writing, the versions of the Quark components that are shipped preflashed are as follows:
-* [agon-mos](https://github.com/breakintoprogram/agon-mos): 1.02
-* [agon-vdp](https://github.com/breakintoprogram/agon-vdp): 1.02
+At the time of writing, the versions of the Quark components that are shipped with the device are as follows:
+* [agon-mos](https://github.com/breakintoprogram/agon-mos): 1.02 is flashed to the eZ80
+* [agon-vdp](https://github.com/breakintoprogram/agon-vdp): 1.02 is flashed to the ESP32 
 
-By adding v1.02 of BBC Basic the firmware is complete and the machine is ready to go.
+To install the third element, you are instructed to download BBC Basic and examples from the FIRMWARE folder of the Olimex repository [AgonLight2/SOFTWARE/FIRMWARE/](https://github.com/OLIMEX/AgonLight2/tree/main/SOFTWARE/FIRMWARE) and to copy these to a SD card which you then insert into the device to complete the process. The version of BBC Basic supplied here is 1.02. 
+
+By adding v1.02 of BBC Basic to the micro SD card the firmware is complete and the machine is ready to go.
+
+(Strictly speaking the device is functional without BBC Basic but of limited use. It will complain if no SD card is inserted.)
 
 You can immediately and safely upgrade BBC Basic to version 1.03 copying it direct from the repository at [agon-bbc-basic](https://github.com/breakintoprogram/agon-bbc-basic) without updating the other components. 
 
