@@ -1,5 +1,7 @@
 # agon-notes-and-examples
 
+Note, this is now a little out of date in that version numbers have changed and the new Console8 has been released. I will update after the new Quark firmware release.
+
 ## Very Quick Start for Users of the Olimex Board
 
 When you purchase a board direct from Olimex or one of their distributors such as the Pi Hut in the UK, it will be shipped pre-flashed with two of the three components that together comprise the official Quark firmware.
@@ -40,10 +42,11 @@ In other cases, it may be worth waiting for agon-mos 1.03 / agon-vdp 1.03 / agon
 
 ## Where to Find Information
 
-The official discussion group for the device is a Facebook group which is unfortunate for those who do not like to use that platform or who are willing to do so only reluctantly and use a false name and therefore risk having the account shut down for doing so because this is a breach of Community Guidelines. Facebook is the only forum in which the designers of the board and firmware participate.
+The official discussion group for the device is a Facebook group which is unfortunate for those who do not like to use that platform or who are willing to do so only reluctantly and use a false name and therefore risk having the account shut down for doing so because this is a breach of Community Guidelines. Facebook is the only forum in which the designers of the original board and firmware participate.
 
-Fortunately the [Official AGON QUARK Firmware Documentation Wiki](https://github.com/breakintoprogram/agon-docs) is regularly updated by Dean Belfield aka @breakintoprogram who is currently working on the official code itself and this source becomes more and more helpful by the day.
+There are two discords for programmers - the first of which is controlled by a reseller of Agon hardware who refuses to allow links to other vendors or discussion platforms. Most of the core contributors to the firmware can be found on a second, independent discord that does not have these limitations: [Agon and Console8 Community](https://discord.gg/unqWBbKvd6)  
 
+The [Official AGON QUARK Firmware Documentation Wiki](https://github.com/breakintoprogram/agon-docs) is regularly updated by Dean Belfield aka @breakintoprogram who is currently working on the official code itself and this source becomes more and more helpful by the day.
 The designer of the hardware Bernardo Kastrup also updates the Agon Light page on his website [the ByteAttic](https://www.thebyteattic.com/p/agon.html) regularly.
 
 While you miss out on the community by refusing to join Zuckerberg's empire and the ability to ask direct questions, important information shared there should appear shortly afterwards in one of those two external sources. 
